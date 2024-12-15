@@ -1,0 +1,11 @@
+loguru==0.5.3
+scipy
+tensorboard==2.10.0
+cython
+shapely
+timm
+h5py
+submitit
+scikit-image
+ffmpeg==1.4
+Pillow==9.5.0
