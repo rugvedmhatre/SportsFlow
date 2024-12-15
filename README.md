@@ -7,6 +7,19 @@ Video sequences of SportsSloMo dataset can be downloaded at the [link](https://v
  
 **Note** that the data that we provide in the link is video files, additional processing is needed to extract frames from these video clips. Please consider following the step in the **Preparation** part below.
 
+Our dataset has the following directory format:
+
+```
+├──── SportsSloMo_frames/
+    ├──── clip_0000/
+       ├──── frame_0000.png
+             ├──── ...
+    ├──── clip_0001/
+       ├──── frame_0000.png
+             ├──── ...
+    ├──── ...
+```
+
 ### Preparation
 
 ```
@@ -93,4 +106,4 @@ python extract_segmentation.py
 ```
 
 ## Contact
-If you have any questions, please send an email to [[Rugved Mhatre]](https://rugvedmhatre.github.io)] - rugved.mhatre@nyu.edu 
+If you have any questions, please send an email to [Rugved Mhatre](https://rugvedmhatre.github.io) - rugved.mhatre@nyu.edu 
